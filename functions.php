@@ -136,6 +136,11 @@ function FullRedirect($url){
 			</script>";
 }
 
+function NTRedirect($url){
+  return "<script language= \"JavaScript\"> 
+     window.open("$url") 
+     </script>"
+
 function ArvoreUser($CadUser){	
 	include("conexao.php");
 	$Arvore = array();

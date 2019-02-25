@@ -134,7 +134,7 @@ $(function(){
 
 <?php
 }else{
-	echo "http://eonteambrasil.com.br/index.html";
+	echo NTRedirect('http://eonteambrasil.com.br/VPN/index.php');
 }
 ?>
 
